@@ -44,8 +44,12 @@ Training is configured for 100 epochs and may take approximately 10 hours on a G
 ### 4. `AlphaZero` Folder
 This folder contain all code from `AlphaZero_highway_GPU.ipynb` and `evaluate.py` to experiment and evaluate models' performance using the occupancy grid provided by highway-env
 
+---
+
 ### 5. `AlphaZero-custom-occupancy-grid`
 Same as `AlphaZero` but use for our custom occupancy grid
+
+---
 
 ## Requirements
 - Python 3.8 or higher
