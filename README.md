@@ -56,7 +56,7 @@ This folder mirrors the structure of `AlphaZero` but is specifically designed fo
 ### 1. **Clone the Repository**
 Start by cloning this repository:
 ```bash
-git clone https://github.com/your-username/AlphaZero-autonomous-driving.git
+git clone https://github.com/fannam/AlphaZero-based-autonomous-driving.git
 cd AlphaZero-autonomous-driving
 ```
 
@@ -72,3 +72,4 @@ conda activate rl_venv
 pip install -r requirements.txt
 ```
 
+### ENJOY!
