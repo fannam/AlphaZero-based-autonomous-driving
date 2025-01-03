@@ -18,7 +18,7 @@ This file provides a full workflow from self-play to model training. The trained
 
 ---
 
-### 2. `alphazero_data_final.ipynb`
+### 2. `alphazero_data_final.ipynb` 
 This notebook introduces a custom occupancy grid, derived from the kinematics observation provided by `highway-env`. The custom grid has the following channel specifications:
 
 - **Channels 1 to T**: Occupancy grids for the time steps `t, t-1, ..., t-T+1`.  
@@ -41,12 +41,12 @@ Training is configured for 100 epochs and may take approximately 10 hours on a G
 
 ---
 
-### 4. `AlphaZero` Folder
+### 4. `AlphaZero` folder
 This folder contain all code from `AlphaZero_highway_GPU.ipynb` and `evaluate.py` to experiment and evaluate models' performance using the occupancy grid provided by highway-env
 
 ---
 
-### 5. `AlphaZero-custom-occupancy-grid`
+### 5. `AlphaZero-custom-occupancy-grid` folder
 Same as `AlphaZero` but use for our custom occupancy grid
 
 ---
