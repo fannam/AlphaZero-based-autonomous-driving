@@ -4,7 +4,7 @@ This repository implements an AlphaZero-inspired framework for autonomous drivin
 
 ---
 
-## Contents
+## 📚 **Contents**
 
 ### 1. `AlphaZero_highway_GPU.ipynb`
 This notebook implements the AlphaZero algorithm using the occupancy grid provided by `highway-env`. The occupancy grid is a 3D tensor of shape `(21, 5)` with the following channel specifications:
@@ -42,23 +42,33 @@ Training is configured for 100 epochs and may take approximately 10 hours on a G
 ---
 
 ### 4. `AlphaZero` folder
-This folder contain all code from `AlphaZero_highway_GPU.ipynb` and `evaluate.py` to experiment and evaluate models' performance using the occupancy grid provided by highway-env
+This folder contains all code from `AlphaZero_highway_GPU.ipynb` and `evaluate.py` to experiment and evaluate models' performance using the occupancy grid provided by `highway-env`.
 
 ---
 
 ### 5. `AlphaZero-custom-occupancy-grid` folder
-Same as `AlphaZero` but use for our custom occupancy grid
+This folder mirrors the structure of `AlphaZero` but is specifically designed for experiments using our **custom occupancy grid**.
 
 ---
 
-## Requirements
-- Python 3.8 or higher
-- `highway-env` library
-- NVIDIA GPU (T4 or better recommended)
-- Libraries: `numpy`, `pytorch`, `matplotlib`
-- See more: `requirements.txt`
+## ⚙️ **Installation Guide**
 
-Install the required libraries using:
+### 1. **Clone the Repository**
+Start by cloning this repository:
+```bash
+git clone https://github.com/your-username/AlphaZero-autonomous-driving.git
+cd AlphaZero-autonomous-driving
+```
+
+### 2. **Set up a virtual environment**
+Recommend using miniconda venv: 
+```bash
+conda create -n rl_venv python=3.11
+conda activate rl_venv
+```
+
+### 3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+```
 
